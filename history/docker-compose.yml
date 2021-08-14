@@ -1,6 +1,6 @@
 version: "3"
 services:
-  connector-hygiene:
+  connector-history:
     image: opencti/connector-history:4.5.5
     environment:
       - OPENCTI_URL=http://localhost
